@@ -1,3 +1,3 @@
 self.addEventListener('push', (e) => {
-  self.registration.showNotification(e)
+  self.registration.showNotification(e.data)
 });
